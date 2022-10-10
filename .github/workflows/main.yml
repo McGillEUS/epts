@@ -25,6 +25,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           cd /var/www/statics/epts
-          git config --global --add safe.directory /var/www/statics/epts
           git pull
           
